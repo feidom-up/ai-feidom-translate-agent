@@ -1,0 +1,35 @@
+{
+  "name": "ai-feidom-translate-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start",
+    "demo": "tsx examples/usage-example.ts",
+    "interactive": "tsx examples/usage-example.ts"
+  },
+  "keywords": ["ai", "english-learning", "translation", "mastra", "agent", "vocabulary", "education"],
+  "author": "feidom <qiaoxiansen@hotmail.com>",
+  "license": "MIT",
+  "description": "AI Agent for English Learning using Mastra framework - Translation, vocabulary learning, and scenario-based practice",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.24",
+    "@mastra/core": "^0.13.1",
+    "@mastra/libsql": "^0.13.1",
+    "@mastra/loggers": "^0.10.6",
+    "@mastra/memory": "^0.12.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "mastra": "^0.10.20",
+    "typescript": "^5.9.2",
+    "tsx": "^4.7.0"
+  }
+}
